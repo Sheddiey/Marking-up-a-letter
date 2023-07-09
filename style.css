@@ -1,0 +1,36 @@
+.add-1{
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul{
+    list-style: none;
+}
+.container{
+    margin-left: 150px;
+    border: 2px solid black;
+    width: 800px;
+    padding: 10px;
+}
+@media (max-width: 480px) {
+    .container{
+        margin: 10px;
+        border: 1px solid black;
+        width: 340px;
+        padding: 5px;
+    }
+  }
+
+  @media (max-width: 780px) {
+    .container{
+        margin-left: 10px;
+        border: 1px solid black;
+        width: 700px;
+        padding: 10px;
+    }
+  }
+  
+
+
+  
+  
